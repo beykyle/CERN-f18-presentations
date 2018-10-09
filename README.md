@@ -16,6 +16,25 @@ CERN-f18-presentations
 These directories contain the LaTeX source for Kyle Beyer and Dylan Hatch's presentations for the ITK Strips DAQ 
 project, on the ATLAS experiment, at CERN during the fall of 2018
 
+Contributing
+===
+
+To contribute:
+
+'''console 
+git clone https://github.com/beykyle/CERN-f18-presentations.git
+git checkout -b myname 
+'''
+
+Edit files and commit as desired in your branch. 
+
+'''console
+git push --set-upstream myname
+'''
+
+Then create a pull request to master
+
+
 Structure
 ====
 
