@@ -14,7 +14,7 @@ CERN-f18-presentations
 ===========
 
 These directories contain the LaTeX source for Kyle Beyer and Dylan Hatch's presentations for the ITK Strips DAQ 
-project, on the ATLAS experiment, at CERN during the fall of 2018
+project, on the ATLAS experiment. All work took place at CERN during the fall of 2018, for the University of Michigan REU semester abroad program, sponsored by the Lonsberry foundation.
 
 Contributing
 ===
