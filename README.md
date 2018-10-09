@@ -38,9 +38,9 @@ Then create a pull request to master
 Structure
 ====
 
- The top level directories correspond to a presentation, or the general include directory
- Each presentation goes in a new directory, named p1 through pn
- General include files go in include/ 
+ * The top level directories correspond to a presentation, or the general include directory
+ * Each presentation goes in a new directory, named p1 through pn
+ * General include files go in include/ 
 
 
 include/ directory
