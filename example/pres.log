@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.15)  9 OCT 2018 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.15)  9 OCT 2018 19:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1208,12 +1208,12 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 5.69998pt on input line 51.
-<logos/cern-logo-small.png, id=29, 80.55093pt x 81.30376pt>
+<logos/cern-logo-small.png, id=41, 80.55093pt x 81.30376pt>
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
 Package pdftex.def Info: logos/cern-logo-small.png  used on input line 51.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
-<logos/cern-logo-white-on-blue.png, id=31, 226.59656pt x 226.59656pt>
+<logos/cern-logo-white-on-blue.png, id=43, 226.59656pt x 226.59656pt>
 File: logos/cern-logo-white-on-blue.png Graphic file (type png)
 <use logos/cern-logo-white-on-blue.png>
 Package pdftex.def Info: logos/cern-logo-white-on-blue.png  used on input line 
@@ -1223,69 +1223,177 @@ Package pdftex.def Info: logos/cern-logo-white-on-blue.png  used on input line
 
  <./logos/cern-logo-white-on-blue.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 75.
+(Font)              scaled to size 23.63593pt on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 75.
+(Font)              scaled to size 23.63593pt on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 75.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 75.
+(Font)              scaled to size 13.67995pt on input line 59.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 75.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 75.
-<images/mlogo.png, id=40, 3555.2825pt x 1999.47pt>
-File: images/mlogo.png Graphic file (type png)
-<use images/mlogo.png>
-Package pdftex.def Info: images/mlogo.png  used on input line 75.
-(pdftex.def)             Requested size: 136.5746pt x 76.79219pt.
-<images/wlogo.png, id=41, 1089.06876pt x 1027.84pt>
-File: images/wlogo.png Graphic file (type png)
-<use images/wlogo.png>
-Package pdftex.def Info: images/wlogo.png  used on input line 75.
-(pdftex.def)             Requested size: 104.7042pt x 98.8064pt.
+(Font)              scaled to size 10.40245pt on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 3.79999pt on input line 75.
+(Font)              scaled to size 3.79999pt on input line 59.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 75.
+(Font)              scaled to size 3.79999pt on input line 59.
 
 [2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/mlogo.png> <./ima
-ges/wlogo.png>] (./pres.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./pres.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 1.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 85.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 85.
+(Font)              scaled to size 13.67995pt on input line 69.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 69.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [3
 
-] (./pres.toc) [4
-
-] (./pres.toc) [5
-
-]
-(./pres.toc) [6
-
-] [7
+ <./logos/cern-logo-small.png>] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 73.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [4
 
 ]
-<./logos/LogoBadge-01.png, id=90, 142.3719pt x 142.3719pt>
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 85.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [5
+
+]
+<images/image.png, id=160, 1927.2pt x 1084.05pt>
+File: images/image.png Graphic file (type png)
+<use images/image.png>
+Package pdftex.def Info: images/image.png  used on input line 96.
+(pdftex.def)             Requested size: 455.24408pt x 256.07509pt.
+ [6
+
+ <./images/image.png>]
+\openout4 = `pres.vrb'.
+
+
+(./pres.vrb
+\openout5 = `pres.pyg'.
+
+ (./_minted-pres/default-pyg-prefix.pygstyle)
+(./_minted-pres/default.pygstyle)
+(./_minted-pres/37E4BFEBFA2052A3EEBA2B425468D0FEDD87B45CA1651C65B5E6FF7FB0169AB
+5.pygtex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 1.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+))
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 119.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [7
+
+] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 122.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [8
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 130.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.54997pt on input line 130.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 130.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [9
+
+] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 132.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [10
+
+]
+<p1-figs/atlas.jpeg, id=283, 1445.4pt x 967.615pt>
+File: p1-figs/atlas.jpeg Graphic file (type jpg)
+<use p1-figs/atlas.jpeg>
+Package pdftex.def Info: p1-figs/atlas.jpeg  used on input line 144.
+(pdftex.def)             Requested size: 250.38562pt x 167.6077pt.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 144.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [11
+
+ <./p1-figs/atlas.jpeg>] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 145.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [12
+
+]
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 151.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [13
+
+] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 154.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [14
+
+]
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 160.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [15
+
+] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 162.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [16
+
+]
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 168.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [17
+
+]
+<./logos/LogoBadge-01.png, id=483, 142.3719pt x 142.3719pt>
 File: ./logos/LogoBadge-01.png Graphic file (type png)
 <use ./logos/LogoBadge-01.png>
-Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 103.
+Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 171.
 (pdftex.def)             Requested size: 86.84671pt x 86.84671pt.
- [8
+
+[18
 
  <./logos/LogoBadge-01.png>]
 \tf@nav=\write9
@@ -1297,35 +1405,36 @@ Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 103.
 \tf@snm=\write11
 \openout11 = `pres.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `pres.out' has not changed.
-(rerunfilecheck)             Checksum: C19AA0BF04CDFCA900C82B8EACF3DA78;177.
- )
-(\end occurred inside a group at level 1)
+(rerunfilecheck)             Checksum: 9CF447351E246E6F5876A83BC9DA57C2;331.
+runsystem(rm pres.pyg)...executed.
 
-### simple group (level 1) entered at line 56 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 23030 strings out of 492982
- 452089 string characters out of 6134896
- 559566 words of memory out of 5000000
- 26043 multiletter control sequences out of 15000+600000
- 44825 words of font info for 62 fonts, out of 8000000 for 9000
+ 23436 strings out of 492982
+ 459308 string characters out of 6134896
+ 561371 words of memory out of 5000000
+ 26396 multiletter control sequences out of 15000+600000
+ 53701 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,59p,790b,700s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/
-type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
-uhvr8a.pfb>
-Output written on pres.pdf (8 pages, 232327 bytes).
+ 56i,20n,59p,790b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfit0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvr8a.pfb>
+Output written on pres.pdf (18 pages, 563631 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 484 compressed objects within 5 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
