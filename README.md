@@ -21,16 +21,16 @@ Contributing
 
 To contribute:
 
-'''console 
+```console 
 git clone https://github.com/beykyle/CERN-f18-presentations.git
 git checkout -b myname 
-'''
+```
 
 Edit files and commit as desired in your branch. 
 
-'''console
+```console
 git push --set-upstream myname
-'''
+```
 
 Then create a pull request to master
 
