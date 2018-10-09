@@ -43,7 +43,7 @@ Structure
  * General include files go in include/ 
 
 
-include/ directory
+include directory
 =====
 
  * beamerthemeCERN.sty - The beamer theme definition (colors, fonts, etc)
