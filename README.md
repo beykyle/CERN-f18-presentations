@@ -16,10 +16,11 @@ CERN-f18-presentations
 These directories contain the LaTeX source for Kyle Beyer and Dylan Hatch's presentations for the ITK Strips DAQ 
 project, on the ATLAS experiment. All work took place at CERN during the fall of 2018, for the University of Michigan REU semester abroad program, sponsored by the Lonsberry foundation.
 
+a
 Contributing
 ===
 
-To contribute:
+To contribute (if you are Dylan or Kyle):
 
 ```console 
 git clone https://github.com/beykyle/CERN-f18-presentations.git
@@ -47,14 +48,39 @@ include directory
 =====
 
  * beamerthemeCERN.sty - The beamer theme definition (colors, fonts, etc)
+ * Any other .sty file you care to include in your project
  * logos/ - A folder with the CERN logos used on the template
- * images/ - A folder with images and figs to include
+ * images/ - A folder with any images and figs to include
 
 project directories
 ===
 
  * pres.tex - the actual presentation
+ * makefile - this will handle compilation, and copy all necessary dependencies from include/ into the local folder. This is useful because anytime you update any dependencies in include, make will selectively copy the things you have updated.
 
 
-Building with Latexmk
+Dependencies:
 ===
+ * [TeXlive](http://www.tug.org/texlive/) 
+ * [make](https://www.gnu.org/software/make/)
+ 
+Building:
+===
+* Make the project in project directory p1/
+```console
+cd p1/
+make
+```
+
+To delete all latex output and dependency copies in p1/
+```console 
+cd p1/
+make clean
+```
+
+To view the pdf output 
+```console 
+xdg-open p1/*.pdf 
+```
+
+
