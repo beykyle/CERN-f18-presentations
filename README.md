@@ -71,7 +71,7 @@ cd p1/
 make
 ```
 
-To delete all latex output and dependency copies in p1/ 
+To delete all latex output and dependency copies in p1/
 ```console 
 cd p1/
 make clean
