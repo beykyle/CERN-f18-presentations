@@ -19,7 +19,7 @@ project, on the ATLAS experiment. All work took place at CERN during the fall of
 Contributing
 ===
 
-To contribute:
+To contribute (if you are Dylan or Kyle):
 
 ```console 
 git clone https://github.com/beykyle/CERN-f18-presentations.git
@@ -43,18 +43,44 @@ Structure
  * General include files go in include/ 
 
 
-include/ directory
+include directory
 =====
 
  * beamerthemeCERN.sty - The beamer theme definition (colors, fonts, etc)
+ * Any other .sty file you care to include in your project
  * logos/ - A folder with the CERN logos used on the template
- * images/ - A folder with images and figs to include
+ * images/ - A folder with any images and figs to include
 
 project directories
 ===
 
  * pres.tex - the actual presentation
+ * makefile - this will handle compilation, and copy all necessary dependencies from include/ into the local folder. This is useful because anytime you update any dependencies in include, make will selectively copy the things you have updated.
 
 
-Building with Latexmk
+Dependencies:
 ===
+ * [TeXlive](http://www.tug.org/texlive/) 
+ * [make](https://www.gnu.org/software/make/)
+ 
+Building:
+===
+* Make the project in project directory p1/
+```console
+cd p1/
+make
+```
+
+To delete all latex output and dependency copies in p1/ 
+```console 
+cd p1/
+make clean
+```
+After doing this, you may have to make twice to reset the log and output files so that figures are set correctly.
+
+To view the pdf output 
+```console 
+xdg-open p1/*.pdf 
+```
+
+
