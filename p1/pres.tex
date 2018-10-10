@@ -12,31 +12,6 @@
 
 \usetheme{CERN}
 
-\newcommand{\interludeTitle}{}
-\AtBeginSection[] {
-    \frame{
-	\frametitle{\interludeTitle}
-      \begin{multicols}{2}
-        \tableofcontents[
-            currentsection,
-            sectionstyle=show/shaded,
-            ]
-	  \end{multicols}
-    }
-}
-
-\AtBeginSubsection[] {
-	  \frame{
-		\frametitle{\interludeTitle}
-		\begin{multicols}{2}
-        \tableofcontents[
-            currentsubsection,
-            subsectionstyle=show/shaded,
-            ]
-		\end{multicols}
-	  }
-}
-
 
 % Talk date
 % Uncomment this to define a presentation date distinct from \today
@@ -77,26 +52,39 @@
     \setcounter{framenumber}{0}
 
     % TOC
-    \frame{
-        \frametitle{Agenda}
-        \begin{multicols}{2}
-            \tableofcontents
-        \end{multicols}
-    }
+%     \frame{
+%        \frametitle{Agenda}
+%        \begin{multicols}{2}
+%            \tableofcontents
+%        \end{multicols}
+%    }
 
 
 
-    \section{Project Background}
-
-    \section{ITk Readout}
-
-    \section{Personal}
 
     
     \frame{
         \frametitle{Acknowledgements}
-        We would like to acknowledge the University of Michigan Department of Physics, specifically Jean Krisch and Tom Schwarz. Additionally we would like to acknowledge the generous financial support of the Lounsbery foundation. Finally, we would like to thank Steven Goldfarb for his capability as the on-site coordinator.
+        We would like to acknowledge the University of Michigan Department of Physics, specifically Jean Krisch and Tom Schwarz, and Steven Goldfarb. 
+
+        We would also like to acknowledge the support of the Lounsbery foundation.   \\
         %More content goes here
+      \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=south west, %anchor is bottom left corner of the graphic
+              xshift=2.4cm, %shifting around
+              yshift=0.4cm]
+       at (current page.south west) %left bottom corner of the page
+        { \includegraphics[scale=0.05,trim={0 0 0 35cm },clip]
+        {p1-figs/cham.jpg} };
+
+        \node[anchor=south east, %anchor is bottom left corner of the graphic
+              xshift=-2.4cm, %shifting around
+              yshift=0.4cm]
+       at (current page.south east) %left bottom corner of the page
+        {	\includegraphics[width=0.33\paperwidth]{p1-figs/okto.jpg} };
+			\end{tikzpicture}
+        
+        
     }
 
     \section{}

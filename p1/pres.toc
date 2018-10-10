@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Project Background}{4}{0}{1}
-\beamer@sectionintoc {2}{ITk Readout}{5}{0}{2}
-\beamer@sectionintoc {3}{Personal}{6}{0}{3}
