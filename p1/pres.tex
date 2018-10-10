@@ -10,6 +10,7 @@
 %  Require Pygments
 \usepackage{minted}
 \usepackage{siunitx}
+\usepackage{comment}
 \sisetup{output-exponent-marker=\ensuremath{\mathrm{e}}}
 
 
@@ -60,7 +61,6 @@
     \setbeamertemplate{footline}{}
     \setbeamertemplate{navigation symbols}{}
     \frame{\titlepage
-
       \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=south west, %anchor is bottom left corner of the graphic
               xshift=0.5cm, %shifting around
@@ -74,10 +74,11 @@
        at (current page.south east) %left bottom corner of the page
         {	\includegraphics[width=0.23\paperwidth]{images/wlogo.png} };
 			\end{tikzpicture}
-
     }
+  }
 
     \setcounter{framenumber}{0}
+
 
     % TOC
      \frame{
