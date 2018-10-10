@@ -87,8 +87,10 @@
             \tableofcontents
         \end{multicols}
     }
+
+    \section{Background}
     
-    \section{Introduction}
+    \subsection{ATLAS \& the Inner Detector}
 
     
     % ============================================================== %
@@ -102,7 +104,7 @@
     
     }
     
-    \section{HL-LHC \& ITk}
+    \subsection{HL-LHC \& ITk}
     
 
     % ============================================================== %
@@ -438,8 +440,50 @@
         \end{minipage}  
     }
 
+    \frame{ \frametitle{ITk design}
+    
+    \begin{minipage}{\textwidth}
+    \begin{block}{ITk will have:}
+    \begin{itemize}
+      \item Strip detector: 70M channels (6M currently)
+      \item Pixel detector: 600M channels (80M currently)
+    \end{itemize}
+    \end{block}
+    \end{minipage}
+    
+    \begin{minipage}{\textwidth}
+      \begin{columns}[T,onlytextwidth]
+      \begin{column}{.4\textwidth}
+
+        % design
+				\begin{figure}
+					\includegraphics
+          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
+					{example-image}
+          \caption{Design of ITk}
+			 	\end{figure}
+
+      \end{column}
+      \begin{column}{.4\textwidth}
+				
+        % rad length vs eta
+        \begin{figure}
+					\includegraphics
+          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
+					{example-image}
+          \caption{ITk radiation length v. $\eta$}
+			 	\end{figure}
+
+
+      \end{column}
+      \end{columns}
+    \end{minipage}
+    }
+
+
     \frame{
-      \frametitle{ITk design}
+      \frametitle{ITk Design: Strip Detector}
+      % ignoring pixel detector
         \begin{columns}[T,onlytextwidth]
         \begin{column}{.45\textwidth}
 
@@ -453,9 +497,20 @@
         \end{column}
         \begin{column}{.4\textwidth}
 
+          \begin{itemize}
+              \item barrel staves
+              \item endcap petals
+          \end{itemize}
+
         \end{column}
         \end{columns}
     }
+    
+    \frame{
+      \frametitle{Strip Detector Readout}
+    }
+
+
    
     % ============================================================== %
     %
@@ -464,6 +519,8 @@
     % ============================================================== %
     
     \section{Our Progress}
+    \subsection{s1}
+    \subsection{s2}
     
     \frame{
         \frametitle{ATLYS Board}
