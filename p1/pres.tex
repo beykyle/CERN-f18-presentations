@@ -10,6 +10,7 @@
 %  Require Pygments
 \usepackage{minted}
 \usepackage{siunitx}
+\usepackage{comment}
 \sisetup{output-exponent-marker=\ensuremath{\mathrm{e}}}
 
 
@@ -60,7 +61,6 @@
     \setbeamertemplate{footline}{}
     \setbeamertemplate{navigation symbols}{}
     \frame{\titlepage
-
       \begin{tikzpicture}[remember picture, overlay]
         \node[anchor=south west, %anchor is bottom left corner of the graphic
               xshift=0.5cm, %shifting around
@@ -74,10 +74,11 @@
        at (current page.south east) %left bottom corner of the page
         {	\includegraphics[width=0.23\paperwidth]{images/wlogo.png} };
 			\end{tikzpicture}
-
     }
+  }
 
     \setcounter{framenumber}{0}
+
 
     % TOC
      \frame{
@@ -86,8 +87,10 @@
             \tableofcontents
         \end{multicols}
     }
+
+    \section{Background}
     
-    \section{Introduction}
+    \subsection{ATLAS \& the Inner Detector}
 
     
     % ============================================================== %
@@ -101,7 +104,7 @@
     
     }
     
-    \section{HL-LHC \& ITk}
+    \subsection{HL-LHC \& ITk}
     
 
     % ============================================================== %
@@ -121,13 +124,12 @@
             \begin{itemize}
               \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
                      L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
-              \item More particles, more problems
             \end{itemize}
           \end{block}
 
         \end{column}
         \begin{column}{.4\textwidth}
-				\vspace{-0.5cm}
+				\vspace{-1.2cm}
 					\begin{figure}
 						\includegraphics
 						[width=\textwidth, height=.4\textheight]
@@ -137,12 +139,27 @@
         \end{column}
         \end{columns}
 
+        \vspace{-0.1cm}
+
         \begin{minipage}{\textwidth}
-					\begin{figure}
-						\includegraphics
-						[width=\textwidth, height=.4\textheight]
-						{p1-figs/hl.png}
-				 	\end{figure}
+          \begin{columns}[T,onlytextwidth]
+          \begin{column}{.5\textwidth}
+            \begin{figure}
+              \includegraphics
+              [height=.47\textheight]
+              {p1-figs/hl.png}
+            \end{figure}
+          \end{column}
+          \begin{column}{.6\textwidth}
+            \vspace{0.5cm}
+            \begin{figure}
+              \includegraphics
+              [scale=0.17,trim={6cm 1cm 6cm 6cm },clip=true]
+              {p1-figs/hl-plan.jpg}
+            \end{figure}
+          \end{column}
+          \end{columns}
+        
         \end{minipage}  
 
     }
@@ -158,13 +175,64 @@
             \begin{itemize}
               \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
                      L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
-              \item More particles, more problems
+              \item \bf{More particles, more problems}
             \end{itemize}
           \end{block}
 
         \end{column}
         \begin{column}{.4\textwidth}
-				\vspace{-0.5cm}
+				  \vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        
+        \begin{minipage}{\textwidth}
+          \begin{columns}[T,onlytextwidth]
+          \begin{column}{.5\textwidth}
+            \begin{figure}
+              \includegraphics
+              [height=.47\textheight]
+              {p1-figs/hl.png}
+            \end{figure}
+          \end{column}
+          \begin{column}{.6\textwidth}
+            \vspace{0.5cm}
+            \begin{figure}
+              \includegraphics
+              [scale=0.17,trim={6cm 1cm 6cm 6cm },clip=true]
+              {p1-figs/hl-plan.jpg}
+            \end{figure}
+          \end{column}
+          \end{columns}
+        
+        \end{minipage}  
+
+    }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
 					\begin{figure}
 						\includegraphics
 						[width=\textwidth, height=.4\textheight]
@@ -179,12 +247,270 @@
             \begin{itemize}
                 \item radiation hardness
                 \item granularity
-                \item bandwidth
+                \item readout bandwidth
+                \item trigger readout speed/storage
             \end{itemize}
           \end{block}
         \end{minipage}  
 
     }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{ The inner detector has insufficient:}
+            \begin{itemize}
+              \item radiation hardness: HL-LHC will deliver 4000 fb$^{-1}$  fluence. 
+                    ID PIX is designed for 400 fb$^{-1}$, ID SCT for 700 fb$^{-1}$, 
+                    IBL for 800 fb$^{-1}$
+            \end{itemize}
+          \end{block}
+        \end{minipage}  
+
+    }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{ The inner detector has insufficient:}
+            \begin{itemize}
+              \item granularity: Increasing fluence means higher granularity is needed to maintain performance; compensate for instrinsic dead time
+            \end{itemize}
+          \end{block}
+        \end{minipage}  
+
+    }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{ The inner detector has insufficient:}
+            \begin{itemize}
+                \item readout bandwidth: HL-LHC will roughly quadruple ID designed bandwidth saturation
+            \end{itemize}
+          \end{block}
+        \end{minipage}  
+
+    }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{ The inner detector has insufficient:}
+            \begin{itemize}
+              \item trigger readout speed/storage: readout chain must accomadate much higher hardware (level 1) trigger rate
+            \end{itemize}
+          \end{block}
+        \end{minipage}  
+
+    }
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item \bf{More particles, more problems}
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-1.2cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{\large{\bf{Goal of ITk:}} }
+            \large{\bf{Same or better performance than ID in 
+            harsh environment of HL-LHC}} 
+          \end{block}
+        \end{minipage}  
+    }
+
+    \frame{ \frametitle{ITk design}
+    
+    \begin{minipage}{\textwidth}
+    \begin{block}{ITk will have:}
+    \begin{itemize}
+      \item Strip detector: 70M channels (6M currently)
+      \item Pixel detector: 600M channels (80M currently)
+    \end{itemize}
+    \end{block}
+    \end{minipage}
+    
+    \begin{minipage}{\textwidth}
+      \begin{columns}[T,onlytextwidth]
+      \begin{column}{.4\textwidth}
+
+        % design
+				\begin{figure}
+					\includegraphics
+          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
+					{example-image}
+          \caption{Design of ITk}
+			 	\end{figure}
+
+      \end{column}
+      \begin{column}{.4\textwidth}
+				
+        % rad length vs eta
+        \begin{figure}
+					\includegraphics
+          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
+					{example-image}
+          \caption{ITk radiation length v. $\eta$}
+			 	\end{figure}
+
+
+      \end{column}
+      \end{columns}
+    \end{minipage}
+    }
+
+
+    \frame{
+      \frametitle{ITk Design: Strip Detector}
+      % ignoring pixel detector
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.45\textwidth}
+
+          \vspace{-0.5cm}
+					\begin{figure}
+						\includegraphics
+            [trim={0cm 0cm 0cm 0cm},clip,width=1.2\textwidth ]
+						{example-image}
+				 	\end{figure}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+
+          \begin{itemize}
+              \item barrel staves
+              \item endcap petals
+          \end{itemize}
+
+        \end{column}
+        \end{columns}
+    }
+    
+    \frame{
+      \frametitle{Strip Detector Readout}
+    }
+
+
    
     % ============================================================== %
     %
@@ -193,6 +519,8 @@
     % ============================================================== %
     
     \section{Our Progress}
+    \subsection{s1}
+    \subsection{s2}
     
     \frame{
         \frametitle{ATLYS Board}
@@ -215,25 +543,31 @@
 
     \frame{
         \frametitle{Acknowledgements}
-        We would like to acknowledge the University of Michigan Department of Physics, specifically Jean Krisch, Tom Schwarz, and Steven Goldfarb. 
+
+        \vspace{-2.0cm}
+
+
+        We would like to acknowledge the University of Michigan Department of Physics,\\ specifically Jean Krisch, Tom Schwarz, and Steven Goldfarb. 
 
         We would also like to acknowledge the support of the Lounsbery foundation.   \\
-        %More content goes here
-      \begin{tikzpicture}[remember picture, overlay]
-        \node[anchor=south west, %anchor is bottom left corner of the graphic
-              xshift=2.4cm, %shifting around
-              yshift=0.4cm]
-       at (current page.south west) %left bottom corner of the page
-        { \includegraphics[scale=0.05,trim={0 0 0 35cm },clip]
-        {p1-figs/cham.jpg} };
 
-        \node[anchor=south east, %anchor is bottom left corner of the graphic
-              xshift=-2.4cm, %shifting around
-              yshift=0.4cm]
-       at (current page.south east) %left bottom corner of the page
-        {	\includegraphics[width=0.33\paperwidth]{p1-figs/okto.jpg} };
-			\end{tikzpicture}
 
+        \begin{minipage}{\textwidth}
+
+          \begin{tikzpicture}[remember picture, overlay]
+            \node[anchor=south west, %anchor is bottom left corner of the graphic
+                  xshift=2.4cm ]
+           at (current page.south west) %left bottom corner of the page
+            { \includegraphics[scale=0.05,trim={0 0 0 35cm },clip]
+            {p1-figs/cham.jpg} };
+
+            \node[anchor=south east, %anchor is bottom left corner of the graphic
+                  xshift=-2.4cm]
+           at (current page.south east) %left bottom corner of the page
+            {	\includegraphics[width=0.33\paperwidth]{p1-figs/okto.jpg} };
+          \end{tikzpicture}
+
+        \end{minipage}  
 
     }
 

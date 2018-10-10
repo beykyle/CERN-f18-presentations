@@ -1,4 +1,7 @@
-\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
-\beamer@sectionintoc {2}{HL-LHC \& ITk}{6}{0}{2}
-\beamer@sectionintoc {3}{Our Progress}{9}{0}{3}
-\beamer@sectionintoc {4}{Acknowledgements}{12}{0}{4}
+\beamer@sectionintoc {1}{Background}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{ATLAS \& the Inner Detector}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{HL-LHC \& ITk}{7}{0}{1}
+\beamer@sectionintoc {2}{Our Progress}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{s1}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{s2}{21}{0}{2}
+\beamer@sectionintoc {3}{Acknowledgements}{24}{0}{3}
