@@ -9,8 +9,36 @@
 % Code listings with syntax highlighting
 %  Require Pygments
 \usepackage{minted}
+\usepackage{siunitx}
+\sisetup{output-exponent-marker=\ensuremath{\mathrm{e}}}
+
 
 \usetheme{CERN}
+
+\newcommand{\interludeTitle}{}
+\AtBeginSection[] {
+    \frame{
+	\frametitle{\interludeTitle}
+      \begin{multicols}{2}
+        \tableofcontents[
+            currentsection,
+            sectionstyle=show/shaded,
+            ]
+	  \end{multicols}
+    }
+}
+
+\AtBeginSubsection[] {
+	  \frame{
+		\frametitle{\interludeTitle}
+		\begin{multicols}{2}
+        \tableofcontents[
+            currentsubsection,
+            subsectionstyle=show/shaded,
+            ]
+		\end{multicols}
+	  }
+}
 
 
 % Talk date
@@ -52,17 +80,127 @@
     \setcounter{framenumber}{0}
 
     % TOC
-%     \frame{
-%        \frametitle{Agenda}
-%        \begin{multicols}{2}
-%            \tableofcontents
-%        \end{multicols}
-%    }
+     \frame{
+        \frametitle{Agenda}
+        \begin{multicols}{2}
+            \tableofcontents
+        \end{multicols}
+    }
+    
+    \section{Introduction}
+
+    
+    % ============================================================== %
+    %
+    % ATLAS & Inner Detector
+    %
+    % ============================================================== %
+
+    \frame{
+      \frametitle{ATLAS \& the Inner Detector}
+    
+    }
+    
+    \section{HL-LHC \& ITk}
+
+    % ============================================================== %
+    %
+    % HL-LHC & ITK Frame
+    %
+    % ============================================================== %
+    
+    \frame{
+      \frametitle{High Luminosity LHC \& ITk Upgrades}
+      %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item More particles, more problems
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-0.5cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl.png}
+				 	\end{figure}
+        \end{minipage}  
+
+    }
 
     \frame{
       \frametitle{High Luminosity LHC \& ITk Upgrades}
       %
+
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.54\textwidth}
+
+        \begin{block}{ $x10$ increase in instantaneous luminosity! }
+            \begin{itemize}
+              \item $L = $\num{1e73} fb$^{-1}$ s$^{-1} \rightarrow 
+                     L = $ \num{1e74} fb$^{-1}$ s$^{-1} $ \\
+              \item More particles, more problems
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.4\textwidth}
+				\vspace{-0.5cm}
+					\begin{figure}
+						\includegraphics
+						[width=\textwidth, height=.4\textheight]
+						{p1-figs/hl-upgrade.png}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
+
+        \begin{minipage}{\textwidth}
+          \begin{block}{ The inner detector has insufficient:}
+            \begin{itemize}
+                \item radiation hardness
+                \item granularity
+                \item bandwidth
+            \end{itemize}
+          \end{block}
+        \end{minipage}  
+
     }
+   
+    % ============================================================== %
+    %
+    % Our Progress
+    %
+    % ============================================================== %
+    
+    \section{Our Progress}
+
+    % ============================================================== %
+    %
+    % Acknowledgements
+    %
+    % ============================================================== %
+    
+    \section{Acknowledgements}
+    
 
     \frame{
         \frametitle{Acknowledgements}
