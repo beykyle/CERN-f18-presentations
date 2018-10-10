@@ -76,6 +76,7 @@ To delete all latex output and dependency copies in p1/
 cd p1/
 make clean
 ```
+After doing this, you may have to make twice to reset the log and output files so that figures are set correctly.
 
 To view the pdf output 
 ```console 
