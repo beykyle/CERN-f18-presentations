@@ -35,42 +35,56 @@
 \headcommand {\beamer@framepages {14}{14}}
 \headcommand {\slideentry {1}{2}{9}{15/15}{HL-LHC \& ITk}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {1}{2}{10}{16/16}{HL-LHC \& ITk}{0}}
+\headcommand {\beamer@subsectionpages {7}{15}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{16}{ITk Design and Readout}}
+\headcommand {\slideentry {1}{3}{1}{16/16}{ITk Design and Readout}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {1}{2}{11}{17/17}{HL-LHC \& ITk}{0}}
+\headcommand {\slideentry {1}{3}{2}{17/17}{ITk Design and Readout}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {1}{2}{12}{18/18}{HL-LHC \& ITk}{0}}
+\headcommand {\slideentry {1}{3}{3}{18/18}{ITk Design and Readout}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@sectionpages {4}{18}}
-\headcommand {\beamer@subsectionpages {7}{18}}
-\headcommand {\sectionentry {2}{Our Progress}{19}{Our Progress}{0}}
-\headcommand {\slideentry {2}{0}{1}{19/19}{}{0}}
+\headcommand {\slideentry {1}{3}{4}{19/19}{ITk Design and Readout}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{20}{s1}}
-\headcommand {\slideentry {2}{1}{1}{20/20}{s1}{0}}
+\headcommand {\beamer@sectionpages {4}{19}}
+\headcommand {\beamer@subsectionpages {16}{19}}
+\headcommand {\sectionentry {2}{Lab Testing of Hybrid Chips}{20}{Lab Testing of Hybrid Chips}{0}}
+\headcommand {\slideentry {2}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
 \headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{21}{s2}}
-\headcommand {\slideentry {2}{2}{1}{21/21}{s2}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{21}{Testing Setup}}
+\headcommand {\slideentry {2}{1}{1}{21/21}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{2}{2}{22/22}{s2}{0}}
+\headcommand {\slideentry {2}{1}{2}{22/22}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {2}{2}{3}{23/23}{s2}{0}}
+\headcommand {\slideentry {2}{1}{3}{23/23}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@sectionpages {19}{23}}
-\headcommand {\beamer@subsectionpages {21}{23}}
-\headcommand {\sectionentry {3}{Acknowledgements}{24}{Acknowledgements}{0}}
-\headcommand {\slideentry {3}{0}{1}{24/24}{}{0}}
+\headcommand {\slideentry {2}{1}{4}{24/24}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{0}{2}{25/25}{}{0}}
+\headcommand {\slideentry {2}{1}{5}{25/25}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@sectionpages {24}{25}}
-\headcommand {\beamer@subsectionpages {24}{25}}
-\headcommand {\slideentry {4}{0}{1}{26/26}{}{0}}
+\headcommand {\slideentry {2}{1}{6}{26/26}{Testing Setup}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@partpages {1}{26}}
-\headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\beamer@sectionpages {26}{26}}
-\headcommand {\beamer@documentpages {26}}
-\headcommand {\gdef \inserttotalframenumber {24}}
+\headcommand {\beamer@subsectionpages {21}{26}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{27}{Progress \& Goals}}
+\headcommand {\slideentry {2}{2}{1}{27/27}{Progress \& Goals}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {2}{2}{2}{28/28}{Progress \& Goals}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {2}{2}{3}{29/29}{Progress \& Goals}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\beamer@sectionpages {20}{29}}
+\headcommand {\beamer@subsectionpages {27}{29}}
+\headcommand {\sectionentry {3}{Acknowledgements}{30}{Acknowledgements}{0}}
+\headcommand {\slideentry {3}{0}{1}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {3}{0}{2}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@sectionpages {30}{31}}
+\headcommand {\beamer@subsectionpages {30}{31}}
+\headcommand {\slideentry {4}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\beamer@sectionpages {32}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {30}}
