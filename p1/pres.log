@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.15)  11 OCT 2018 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.15)  11 OCT 2018 13:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -762,6 +762,26 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip59
+\subfigcapskip=\skip60
+\subfigcaptopadj=\dimen266
+\subfigbottomskip=\skip61
+\subfigcapmargin=\dimen267
+\subfiglabelskip=\skip62
+\c@subfigure=\count172
+\c@lofdepth=\count173
+\c@subtable=\count174
+\c@lotdepth=\count175
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip63
+\subfig@bottom=\skip64
+)
 (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
@@ -777,11 +797,11 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count172
+\FV@CodeLineNo=\count176
 \FV@InFile=\read2
 \FV@TabBox=\box84
-\c@FancyVerbLine=\count173
-\FV@StepNumber=\count174
+\c@FancyVerbLine=\count177
+\FV@StepNumber=\count178
 \FV@OutFile=\write5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -790,56 +810,56 @@ tim
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count175
+\linenopenalty=\count179
 \output=\toks45
-\linenoprevgraf=\count176
-\linenumbersep=\dimen266
-\linenumberwidth=\dimen267
-\c@linenumber=\count177
-\c@pagewiselinenumber=\count178
-\c@LN@truepage=\count179
-\c@internallinenumber=\count180
-\c@internallinenumbers=\count181
-\quotelinenumbersep=\dimen268
-\bframerule=\dimen269
-\bframesep=\dimen270
+\linenoprevgraf=\count180
+\linenumbersep=\dimen268
+\linenumberwidth=\dimen269
+\c@linenumber=\count181
+\c@pagewiselinenumber=\count182
+\c@LN@truepage=\count183
+\c@internallinenumber=\count184
+\c@internallinenumbers=\count185
+\quotelinenumbersep=\dimen270
+\bframerule=\dimen271
+\bframesep=\dimen272
 \bframebox=\box85
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count182
-\c@FV@TrueTabCounter=\count183
+\c@FV@TrueTabGroupLevel=\count186
+\c@FV@TrueTabCounter=\count187
 \FV@TabBox@Group=\box86
-\FV@TmpLength=\skip59
-\c@FV@HighlightLinesStart=\count184
-\c@FV@HighlightLinesStop=\count185
-\FV@LoopCount=\count186
+\FV@TmpLength=\skip65
+\c@FV@HighlightLinesStart=\count188
+\c@FV@HighlightLinesStop=\count189
+\FV@LoopCount=\count190
 \FV@NCharsBox=\box87
-\FV@BreakIndent=\dimen271
-\FV@BreakIndentNChars=\count187
-\FV@BreakSymbolSepLeft=\dimen272
-\FV@BreakSymbolSepLeftNChars=\count188
-\FV@BreakSymbolSepRight=\dimen273
-\FV@BreakSymbolSepRightNChars=\count189
-\FV@BreakSymbolIndentLeft=\dimen274
-\FV@BreakSymbolIndentLeftNChars=\count190
-\FV@BreakSymbolIndentRight=\dimen275
-\FV@BreakSymbolIndentRightNChars=\count191
-\c@FancyVerbLineBreakLast=\count192
+\FV@BreakIndent=\dimen273
+\FV@BreakIndentNChars=\count191
+\FV@BreakSymbolSepLeft=\dimen274
+\FV@BreakSymbolSepLeftNChars=\count192
+\FV@BreakSymbolSepRight=\dimen275
+\FV@BreakSymbolSepRightNChars=\count193
+\FV@BreakSymbolIndentLeft=\dimen276
+\FV@BreakSymbolIndentLeftNChars=\count194
+\FV@BreakSymbolIndentRight=\dimen277
+\FV@BreakSymbolIndentRightNChars=\count195
+\c@FancyVerbLineBreakLast=\count196
 \FV@LineBox=\box88
 \FV@LineIndentBox=\box89
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count193
-\calc@Bcount=\count194
-\calc@Adimen=\dimen276
-\calc@Bdimen=\dimen277
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Acount=\count197
+\calc@Bcount=\count198
+\calc@Adimen=\dimen278
+\calc@Bdimen=\dimen279
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count195
-\calc@Cskip=\skip62
+\calc@Ccount=\count199
+\calc@Cskip=\skip68
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
@@ -859,22 +879,22 @@ runsystem(rm -- "pres.w18")...executed.
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write6
-\integerpart=\count196
-\decimalpart=\count197
+\integerpart=\count266
+\decimalpart=\count267
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip63
-\fb@frw=\dimen278
-\fb@frh=\dimen279
-\FrameRule=\dimen280
-\FrameSep=\dimen281
+\OuterFrameSep=\skip69
+\fb@frw=\dimen280
+\fb@frh=\dimen281
+\FrameRule=\dimen282
+\FrameSep=\dimen283
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count198
+\c@float@type=\count268
 \float@exts=\toks46
 \float@box=\box90
 \@float@everytoks=\toks47
@@ -883,10 +903,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \minted@appexistsfile=\read3
 \minted@bgbox=\box92
 \minted@code=\write7
-\c@minted@FancyVerbLineTemp=\count199
-\c@minted@pygmentizecounter=\count266
+\c@minted@FancyVerbLineTemp=\count269
+\c@minted@pygmentizecounter=\count270
 \@float@every@listing=\toks48
-\c@listing=\count267
+\c@listing=\count271
 )
 runsystem(mkdir -p _minted-pres)...executed.
 
@@ -897,129 +917,129 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
-\c_max_int=\count268
-\l_tmpa_int=\count269
-\l_tmpb_int=\count270
-\g_tmpa_int=\count271
-\g_tmpb_int=\count272
-\g__intarray_font_int=\count273
-\g__prg_map_int=\count274
-\c_log_iow=\count275
-\l_iow_line_count_int=\count276
-\l__iow_line_target_int=\count277
-\l__iow_one_indent_int=\count278
-\l__iow_indent_int=\count279
-\c_zero_dim=\dimen282
-\c_max_dim=\dimen283
-\l_tmpa_dim=\dimen284
-\l_tmpb_dim=\dimen285
-\g_tmpa_dim=\dimen286
-\g_tmpb_dim=\dimen287
-\c_zero_skip=\skip64
-\c_max_skip=\skip65
-\l_tmpa_skip=\skip66
-\l_tmpb_skip=\skip67
-\g_tmpa_skip=\skip68
-\g_tmpb_skip=\skip69
+\c_max_int=\count272
+\l_tmpa_int=\count273
+\l_tmpb_int=\count274
+\g_tmpa_int=\count275
+\g_tmpb_int=\count276
+\g__intarray_font_int=\count277
+\g__prg_map_int=\count278
+\c_log_iow=\count279
+\l_iow_line_count_int=\count280
+\l__iow_line_target_int=\count281
+\l__iow_one_indent_int=\count282
+\l__iow_indent_int=\count283
+\c_zero_dim=\dimen284
+\c_max_dim=\dimen285
+\l_tmpa_dim=\dimen286
+\l_tmpb_dim=\dimen287
+\g_tmpa_dim=\dimen288
+\g_tmpb_dim=\dimen289
+\c_zero_skip=\skip70
+\c_max_skip=\skip71
+\l_tmpa_skip=\skip72
+\l_tmpb_skip=\skip73
+\g_tmpa_skip=\skip74
+\g_tmpb_skip=\skip75
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count280
-\c__fp_leading_shift_int=\count281
-\c__fp_middle_shift_int=\count282
-\c__fp_trailing_shift_int=\count283
-\c__fp_big_leading_shift_int=\count284
-\c__fp_big_middle_shift_int=\count285
-\c__fp_big_trailing_shift_int=\count286
-\c__fp_Bigg_leading_shift_int=\count287
-\c__fp_Bigg_middle_shift_int=\count288
-\c__fp_Bigg_trailing_shift_int=\count289
-\c__fp_rand_size_int=\count290
-\c__fp_rand_four_int=\count291
-\c__fp_rand_eight_int=\count292
-\l__sort_length_int=\count293
-\l__sort_min_int=\count294
-\l__sort_top_int=\count295
-\l__sort_max_int=\count296
-\l__sort_true_max_int=\count297
-\l__sort_block_int=\count298
-\l__sort_begin_int=\count299
-\l__sort_end_int=\count300
-\l__sort_A_int=\count301
-\l__sort_B_int=\count302
-\l__sort_C_int=\count303
-\l__tl_build_start_index_int=\count304
-\l__tl_build_index_int=\count305
-\l__tl_analysis_normal_int=\count306
-\l__tl_analysis_index_int=\count307
-\l__tl_analysis_nesting_int=\count308
-\l__tl_analysis_type_int=\count309
-\l__regex_internal_a_int=\count310
-\l__regex_internal_b_int=\count311
-\l__regex_internal_c_int=\count312
-\l__regex_balance_int=\count313
-\l__regex_group_level_int=\count314
-\l__regex_mode_int=\count315
-\c__regex_cs_in_class_mode_int=\count316
-\c__regex_cs_mode_int=\count317
-\l__regex_catcodes_int=\count318
-\l__regex_default_catcodes_int=\count319
-\c__regex_catcode_D_int=\count320
-\c__regex_catcode_S_int=\count321
-\c__regex_catcode_L_int=\count322
-\c__regex_catcode_O_int=\count323
-\c__regex_catcode_A_int=\count324
-\c__regex_all_catcodes_int=\count325
-\l__regex_show_lines_int=\count326
-\l__regex_min_state_int=\count327
-\l__regex_max_state_int=\count328
-\l__regex_left_state_int=\count329
-\l__regex_right_state_int=\count330
-\l__regex_capturing_group_int=\count331
-\l__regex_min_pos_int=\count332
-\l__regex_max_pos_int=\count333
-\l__regex_curr_pos_int=\count334
-\l__regex_start_pos_int=\count335
-\l__regex_success_pos_int=\count336
-\l__regex_curr_char_int=\count337
-\l__regex_curr_catcode_int=\count338
-\l__regex_last_char_int=\count339
-\l__regex_case_changed_char_int=\count340
-\l__regex_curr_state_int=\count341
-\l__regex_step_int=\count342
-\l__regex_min_active_int=\count343
-\l__regex_max_active_int=\count344
-\l__regex_replacement_csnames_int=\count345
-\l__regex_match_count_int=\count346
-\l__regex_min_submatch_int=\count347
-\l__regex_submatch_int=\count348
-\l__regex_zeroth_submatch_int=\count349
-\g__regex_trace_regex_int=\count350
+\l_keys_choice_int=\count284
+\c__fp_leading_shift_int=\count285
+\c__fp_middle_shift_int=\count286
+\c__fp_trailing_shift_int=\count287
+\c__fp_big_leading_shift_int=\count288
+\c__fp_big_middle_shift_int=\count289
+\c__fp_big_trailing_shift_int=\count290
+\c__fp_Bigg_leading_shift_int=\count291
+\c__fp_Bigg_middle_shift_int=\count292
+\c__fp_Bigg_trailing_shift_int=\count293
+\c__fp_rand_size_int=\count294
+\c__fp_rand_four_int=\count295
+\c__fp_rand_eight_int=\count296
+\l__sort_length_int=\count297
+\l__sort_min_int=\count298
+\l__sort_top_int=\count299
+\l__sort_max_int=\count300
+\l__sort_true_max_int=\count301
+\l__sort_block_int=\count302
+\l__sort_begin_int=\count303
+\l__sort_end_int=\count304
+\l__sort_A_int=\count305
+\l__sort_B_int=\count306
+\l__sort_C_int=\count307
+\l__tl_build_start_index_int=\count308
+\l__tl_build_index_int=\count309
+\l__tl_analysis_normal_int=\count310
+\l__tl_analysis_index_int=\count311
+\l__tl_analysis_nesting_int=\count312
+\l__tl_analysis_type_int=\count313
+\l__regex_internal_a_int=\count314
+\l__regex_internal_b_int=\count315
+\l__regex_internal_c_int=\count316
+\l__regex_balance_int=\count317
+\l__regex_group_level_int=\count318
+\l__regex_mode_int=\count319
+\c__regex_cs_in_class_mode_int=\count320
+\c__regex_cs_mode_int=\count321
+\l__regex_catcodes_int=\count322
+\l__regex_default_catcodes_int=\count323
+\c__regex_catcode_D_int=\count324
+\c__regex_catcode_S_int=\count325
+\c__regex_catcode_L_int=\count326
+\c__regex_catcode_O_int=\count327
+\c__regex_catcode_A_int=\count328
+\c__regex_all_catcodes_int=\count329
+\l__regex_show_lines_int=\count330
+\l__regex_min_state_int=\count331
+\l__regex_max_state_int=\count332
+\l__regex_left_state_int=\count333
+\l__regex_right_state_int=\count334
+\l__regex_capturing_group_int=\count335
+\l__regex_min_pos_int=\count336
+\l__regex_max_pos_int=\count337
+\l__regex_curr_pos_int=\count338
+\l__regex_start_pos_int=\count339
+\l__regex_success_pos_int=\count340
+\l__regex_curr_char_int=\count341
+\l__regex_curr_catcode_int=\count342
+\l__regex_last_char_int=\count343
+\l__regex_case_changed_char_int=\count344
+\l__regex_curr_state_int=\count345
+\l__regex_step_int=\count346
+\l__regex_min_active_int=\count347
+\l__regex_max_active_int=\count348
+\l__regex_replacement_csnames_int=\count349
+\l__regex_match_count_int=\count350
+\l__regex_min_submatch_int=\count351
+\l__regex_submatch_int=\count352
+\l__regex_zeroth_submatch_int=\count353
+\g__regex_trace_regex_int=\count354
 \c_empty_box=\box93
 \l_tmpa_box=\box94
 \l_tmpb_box=\box95
 \g_tmpa_box=\box96
 \g_tmpb_box=\box97
-\l__box_top_dim=\dimen288
-\l__box_bottom_dim=\dimen289
-\l__box_left_dim=\dimen290
-\l__box_right_dim=\dimen291
-\l__box_top_new_dim=\dimen292
-\l__box_bottom_new_dim=\dimen293
-\l__box_left_new_dim=\dimen294
-\l__box_right_new_dim=\dimen295
+\l__box_top_dim=\dimen290
+\l__box_bottom_dim=\dimen291
+\l__box_left_dim=\dimen292
+\l__box_right_dim=\dimen293
+\l__box_top_new_dim=\dimen294
+\l__box_bottom_new_dim=\dimen295
+\l__box_left_new_dim=\dimen296
+\l__box_right_new_dim=\dimen297
 \l__box_internal_box=\box98
 \l__coffin_internal_box=\box99
-\l__coffin_internal_dim=\dimen296
-\l__coffin_offset_x_dim=\dimen297
-\l__coffin_offset_y_dim=\dimen298
-\l__coffin_x_dim=\dimen299
-\l__coffin_y_dim=\dimen300
-\l__coffin_x_prime_dim=\dimen301
-\l__coffin_y_prime_dim=\dimen302
+\l__coffin_internal_dim=\dimen298
+\l__coffin_offset_x_dim=\dimen299
+\l__coffin_offset_y_dim=\dimen300
+\l__coffin_x_dim=\dimen301
+\l__coffin_y_dim=\dimen302
+\l__coffin_x_prime_dim=\dimen303
+\l__coffin_y_prime_dim=\dimen304
 \c_empty_coffin=\box100
 \l__coffin_aligned_coffin=\box101
 \l__coffin_aligned_internal_coffin=\box102
@@ -1028,83 +1048,83 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_display_coffin=\box105
 \l__coffin_display_coord_coffin=\box106
 \l__coffin_display_pole_coffin=\box107
-\l__coffin_display_offset_dim=\dimen303
-\l__coffin_display_x_dim=\dimen304
-\l__coffin_display_y_dim=\dimen305
-\l__coffin_bounding_shift_dim=\dimen306
-\l__coffin_left_corner_dim=\dimen307
-\l__coffin_right_corner_dim=\dimen308
-\l__coffin_bottom_corner_dim=\dimen309
-\l__coffin_top_corner_dim=\dimen310
-\l__coffin_scaled_total_height_dim=\dimen311
-\l__coffin_scaled_width_dim=\dimen312
+\l__coffin_display_offset_dim=\dimen305
+\l__coffin_display_x_dim=\dimen306
+\l__coffin_display_y_dim=\dimen307
+\l__coffin_bounding_shift_dim=\dimen308
+\l__coffin_left_corner_dim=\dimen309
+\l__coffin_right_corner_dim=\dimen310
+\l__coffin_bottom_corner_dim=\dimen311
+\l__coffin_top_corner_dim=\dimen312
+\l__coffin_scaled_total_height_dim=\dimen313
+\l__coffin_scaled_width_dim=\dimen314
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count351
+\l__driver_color_stack_int=\count355
 \l__driver_tmp_box=\box108
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count352
-\g__xparse_grabber_int=\count353
-\l__xparse_m_args_int=\count354
-\l__xparse_mandatory_args_int=\count355
-\l__xparse_v_nesting_int=\count356
+\l__xparse_current_arg_int=\count356
+\g__xparse_grabber_int=\count357
+\l__xparse_m_args_int=\count358
+\l__xparse_mandatory_args_int=\count359
+\l__xparse_v_nesting_int=\count360
 )
 Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen313
-\extrarowheight=\dimen314
+\col@sep=\dimen315
+\extrarowheight=\dimen316
 \NC@list=\toks49
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip76
+\backup@length=\skip77
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box109
-\l__siunitx_tmp_dim=\dimen315
-\l__siunitx_tmp_int=\count357
-\l__siunitx_number_mantissa_length_int=\count358
-\l__siunitx_number_uncert_length_int=\count359
-\l__siunitx_round_int=\count360
-\l__siunitx_process_decimal_int=\count361
-\l__siunitx_process_uncertainty_int=\count362
-\l__siunitx_process_fixed_int=\count363
-\l__siunitx_process_integer_min_int=\count364
-\l__siunitx_process_precision_int=\count365
-\l__siunitx_group_min_int=\count366
+\l__siunitx_tmp_dim=\dimen317
+\l__siunitx_tmp_int=\count361
+\l__siunitx_number_mantissa_length_int=\count362
+\l__siunitx_number_uncert_length_int=\count363
+\l__siunitx_round_int=\count364
+\l__siunitx_process_decimal_int=\count365
+\l__siunitx_process_uncertainty_int=\count366
+\l__siunitx_process_fixed_int=\count367
+\l__siunitx_process_integer_min_int=\count368
+\l__siunitx_process_precision_int=\count369
+\l__siunitx_group_min_int=\count370
 \l__siunitx_angle_marker_box=\box110
 \l__siunitx_angle_unit_box=\box111
-\l__siunitx_angle_marker_dim=\dimen316
-\l__siunitx_angle_unit_dim=\dimen317
-\l__siunitx_unit_int=\count367
-\l__siunitx_unit_denominator_int=\count368
-\l__siunitx_unit_numerator_int=\count369
-\l__siunitx_unit_prefix_int=\count370
-\l__siunitx_unit_prefix_base_int=\count371
-\l__siunitx_unit_prefix_gram_int=\count372
-\l__siunitx_number_product_int=\count373
-\c__siunitx_one_fill_skip=\skip72
-\l__siunitx_table_unit_align_skip=\skip73
-\l__siunitx_table_exponent_dim=\dimen318
-\l__siunitx_table_integer_dim=\dimen319
-\l__siunitx_table_mantissa_dim=\dimen320
-\l__siunitx_table_marker_dim=\dimen321
-\l__siunitx_table_result_dim=\dimen322
-\l__siunitx_table_uncert_dim=\dimen323
-\l__siunitx_table_fill_pre_dim=\dimen324
-\l__siunitx_table_fill_post_dim=\dimen325
-\l__siunitx_table_fill_mid_dim=\dimen326
+\l__siunitx_angle_marker_dim=\dimen318
+\l__siunitx_angle_unit_dim=\dimen319
+\l__siunitx_unit_int=\count371
+\l__siunitx_unit_denominator_int=\count372
+\l__siunitx_unit_numerator_int=\count373
+\l__siunitx_unit_prefix_int=\count374
+\l__siunitx_unit_prefix_base_int=\count375
+\l__siunitx_unit_prefix_gram_int=\count376
+\l__siunitx_number_product_int=\count377
+\c__siunitx_one_fill_skip=\skip78
+\l__siunitx_table_unit_align_skip=\skip79
+\l__siunitx_table_exponent_dim=\dimen320
+\l__siunitx_table_integer_dim=\dimen321
+\l__siunitx_table_mantissa_dim=\dimen322
+\l__siunitx_table_marker_dim=\dimen323
+\l__siunitx_table_result_dim=\dimen324
+\l__siunitx_table_uncert_dim=\dimen325
+\l__siunitx_table_fill_pre_dim=\dimen326
+\l__siunitx_table_fill_post_dim=\dimen327
+\l__siunitx_table_fill_mid_dim=\dimen328
 \l__siunitx_table_pre_box=\box112
 \l__siunitx_table_post_box=\box113
 \l__siunitx_table_mantissa_box=\box114
 \l__siunitx_table_result_box=\box115
-\l__siunitx_table_number_align_skip=\skip74
-\l__siunitx_table_text_align_skip=\skip75
+\l__siunitx_table_number_align_skip=\skip80
+\l__siunitx_table_text_align_skip=\skip81
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1326,34 +1346,34 @@ runsystem(rm pres.aex)...executed.
  (./pres.aux)
 \openout1 = `pres.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 55.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 55.
+(Font)              scaled to size 10.40245pt on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1391,16 +1411,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count374
-\scratchdimen=\dimen327
+\scratchcounter=\count378
+\scratchdimen=\dimen329
 \scratchbox=\box116
-\nofMPsegments=\count375
-\nofMParguments=\count376
+\nofMPsegments=\count379
+\nofMParguments=\count380
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count377
-\MPscratchDim=\dimen328
-\MPnumerator=\count378
-\makeMPintoPDFobject=\count379
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen330
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1421,7 +1441,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box117
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1429,58 +1449,58 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count380
+\c@section@level=\count384
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (./pres.out) (./pres.out)
 \@outlinefile=\write9
 \openout9 = `pres.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 55.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 60.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 55.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 55.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 55.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 55.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 60.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 60.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 55.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 55.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 55.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 55.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 55.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1511,89 +1531,89 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 (./pres.nav)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 55.
+(Font)              scaled to size 5.69998pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 5.69998pt on input line 55.
+(Font)              scaled to size 5.69998pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+(Font)              scaled to size 11.39996pt on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 55.
+(Font)              scaled to size 11.39996pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 55.
+(Font)              scaled to size 7.59998pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 55.
+(Font)              scaled to size 11.39996pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 55.
+(Font)              scaled to size 7.59998pt on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 55.
-<logos/cern-logo-small.png, id=45, 80.55093pt x 81.30376pt>
+(Font)              scaled to size 5.69998pt on input line 60.
+<logos/cern-logo-small.png, id=49, 80.55093pt x 81.30376pt>
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 55.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 60.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
-\c__siunitx_mathsf_int=\count381
+\c__siunitx_mathsf_int=\count385
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 55.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 55.
-\c__siunitx_mathtt_int=\count382
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
+(Font)              scaled to size 10.40245pt on input line 60.
+\c__siunitx_mathtt_int=\count386
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 60.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<logos/cern-logo-white-on-blue.png, id=47, 226.59656pt x 226.59656pt>
+<logos/cern-logo-white-on-blue.png, id=51, 226.59656pt x 226.59656pt>
 File: logos/cern-logo-white-on-blue.png Graphic file (type png)
 <use logos/cern-logo-white-on-blue.png>
 Package pdftex.def Info: logos/cern-logo-white-on-blue.png  used on input line 
-57.
+62.
 (pdftex.def)             Requested size: 83.8394pt x 83.8394pt.
  [1
 
  <./logos/cern-logo-white-on-blue.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 77.
+(Font)              scaled to size 23.63593pt on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 77.
+(Font)              scaled to size 23.63593pt on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 77.
-<images/mlogo.png, id=56, 3555.2825pt x 1999.47pt>
+(Font)              scaled to size 13.67995pt on input line 82.
+<images/mlogo.png, id=60, 3555.2825pt x 1999.47pt>
 File: images/mlogo.png Graphic file (type png)
 <use images/mlogo.png>
-Package pdftex.def Info: images/mlogo.png  used on input line 77.
+Package pdftex.def Info: images/mlogo.png  used on input line 82.
 (pdftex.def)             Requested size: 136.5746pt x 76.79219pt.
-<images/wlogo.png, id=57, 1089.06876pt x 1027.84pt>
+<images/wlogo.png, id=61, 1089.06876pt x 1027.84pt>
 File: images/wlogo.png Graphic file (type png)
 <use images/wlogo.png>
-Package pdftex.def Info: images/wlogo.png  used on input line 77.
+Package pdftex.def Info: images/wlogo.png  used on input line 82.
 (pdftex.def)             Requested size: 104.7042pt x 98.8064pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 3.79999pt on input line 77.
+(Font)              scaled to size 3.79999pt on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 77.
+(Font)              scaled to size 3.79999pt on input line 82.
  [2
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/mlogo.png> <./ima
@@ -1604,104 +1624,107 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 1.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 89.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 89.
+(Font)              scaled to size 13.67995pt on input line 94.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 89.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 94.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [3
 
  <./logos/cern-logo-small.png>] (./pres.toc)
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 91.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 96.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [4
 
 ] (./pres.toc)
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 93.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 98.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [5
 
 ]
-File: logos/cern-logo-small.png Graphic file (type png)
-<use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 105.
-(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [6
+<p1-figs/atlas.png, id=184, 1535.7375pt x 907.39pt>
+File: p1-figs/atlas.png Graphic file (type png)
+<use p1-figs/atlas.png>
+Package pdftex.def Info: p1-figs/atlas.png  used on input line 144.
+(pdftex.def)             Requested size: 169.2951pt x 100.02089pt.
+<p1-figs/id.jpg, id=185, 563.10374pt x 375.4025pt>
+File: p1-figs/id.jpg Graphic file (type jpg)
+<use p1-figs/id.jpg>
+Package pdftex.def Info: p1-figs/id.jpg  used on input line 144.
+(pdftex.def)             Requested size: 169.2951pt x 112.8622pt.
 
-] (./pres.toc)
+Overfull \vbox (1.3508pt too high) detected at line 144
+ []
+
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 107.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 144.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+[6
+
+ <./p1-figs/atlas.png> <./p1-figs/id.jpg>] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 146.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [7
 
 ]
-<p1-figs/hl-upgrade.png, id=235, 778.91pt x 602.25pt>
+<p1-figs/hl-upgrade.png, id=248, 778.91pt x 602.25pt>
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 165.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 204.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
-<p1-figs/hl.png, id=236, 306.14375pt x 165.61874pt>
+<p1-figs/hl.png, id=249, 306.14375pt x 165.61874pt>
 File: p1-figs/hl.png Graphic file (type png)
 <use p1-figs/hl.png>
-Package pdftex.def Info: p1-figs/hl.png  used on input line 165.
+Package pdftex.def Info: p1-figs/hl.png  used on input line 204.
 (pdftex.def)             Requested size: 190.93295pt x 103.29103pt.
-<p1-figs/hl-plan.jpg, id=237, 1486.5939pt x 619.3539pt>
+<p1-figs/hl-plan.jpg, id=250, 1486.5939pt x 619.3539pt>
 File: p1-figs/hl-plan.jpg Graphic file (type jpg)
 <use p1-figs/hl-plan.jpg>
-Package pdftex.def Info: p1-figs/hl-plan.jpg  used on input line 165.
+Package pdftex.def Info: p1-figs/hl-plan.jpg  used on input line 204.
 (pdftex.def)             Requested size: 194.67477pt x 71.43044pt.
 
-Overfull \hbox (39.83629pt too wide) detected at line 165
+Overfull \hbox (39.83629pt too wide) detected at line 204
 [][][][][][][][][][][] [][][][][][][]
  []
 
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 165.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 204.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
 [8
 
  <./p1-figs/hl-plan.jpg> <./p1-figs/hl-upgrade.png> <./p1-figs/hl.png>]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 216.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 255.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
 File: p1-figs/hl.png Graphic file (type png)
 <use p1-figs/hl.png>
-Package pdftex.def Info: p1-figs/hl.png  used on input line 216.
+Package pdftex.def Info: p1-figs/hl.png  used on input line 255.
 (pdftex.def)             Requested size: 190.93295pt x 103.29103pt.
 File: p1-figs/hl-plan.jpg Graphic file (type jpg)
 <use p1-figs/hl-plan.jpg>
-Package pdftex.def Info: p1-figs/hl-plan.jpg  used on input line 216.
+Package pdftex.def Info: p1-figs/hl-plan.jpg  used on input line 255.
 (pdftex.def)             Requested size: 194.67477pt x 71.43044pt.
 
-Overfull \hbox (39.83629pt too wide) detected at line 216
+Overfull \hbox (39.83629pt too wide) detected at line 255
 [][][][][][][][][][][] [][][][][][][]
  []
 
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 216.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 255.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
 [9
-
-]
-File: p1-figs/hl-upgrade.png Graphic file (type png)
-<use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 256.
-(pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
-File: logos/cern-logo-small.png Graphic file (type png)
-<use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 256.
-(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [10
 
 ]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
@@ -1712,192 +1735,261 @@ File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
 Package pdftex.def Info: logos/cern-logo-small.png  used on input line 295.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [10
+
+]
+File: p1-figs/hl-upgrade.png Graphic file (type png)
+<use p1-figs/hl-upgrade.png>
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 334.
+(pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 334.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [11
 
 ]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 332.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 380.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 332.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 380.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [12
 
 ]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 369.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 417.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 369.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 417.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [13
 
 ]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 406.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 454.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 406.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 454.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [14
 
 ]
 File: p1-figs/hl-upgrade.png Graphic file (type png)
 <use p1-figs/hl-upgrade.png>
-Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 441.
+Package pdftex.def Info: p1-figs/hl-upgrade.png  used on input line 489.
 (pdftex.def)             Requested size: 159.33292pt x 87.89836pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 441.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 489.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [15
 
-]
-<example-image.pdf, id=461, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 481.
-(pdftex.def)             Requested size: 127.46687pt x 95.60106pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 481.
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 481.
-(pdftex.def)             Requested size: 127.46687pt x 95.60106pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 481.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 481.
-
-Overfull \vbox (6.54321pt too high) detected at line 481
- []
-
+] (./pres.toc)
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 481.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 491.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
-[16
-
- </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image.pdf>]
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 507.
-(pdftex.def)             Requested size: 215.10081pt x 161.32863pt.
-
-Overfull \hbox (35.84967pt too wide) in paragraph at lines 507--507
- [] 
- []
-
-File: logos/cern-logo-small.png Graphic file (type png)
-<use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 507.
-(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
-[17
+ [16
 
 ]
+<p1-figs/ATLASITK.png, id=506, 1984.41376pt x 1150.2975pt>
+File: p1-figs/ATLASITK.png Graphic file (type png)
+<use p1-figs/ATLASITK.png>
+Package pdftex.def Info: p1-figs/ATLASITK.png  used on input line 511.
+(pdftex.def)             Requested size: 278.83578pt x 161.61977pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
 Package pdftex.def Info: logos/cern-logo-small.png  used on input line 511.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [18
+ [17
 
-] (./pres.toc)
+ <./p1-figs/ATLASITK.png>]
+<p1-figs/stave_petal.png, id=536, 891.33pt x 461.725pt>
+File: p1-figs/stave_petal.png Graphic file (type png)
+<use p1-figs/stave_petal.png>
+Package pdftex.def Info: p1-figs/stave_petal.png  used on input line 529.
+(pdftex.def)             Requested size: 318.67209pt x 165.07953pt.
+
+Overfull \vbox (23.4378pt too high) detected at line 529
+ []
+
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 521.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 529.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [19
+[18
 
-] (./pres.toc)
+ <./p1-figs/stave_petal.png>]
+<p1-figs/module.png, id=565, 519.9425pt x 391.4625pt>
+File: p1-figs/module.png Graphic file (type png)
+<use p1-figs/module.png>
+Package pdftex.def Info: p1-figs/module.png  used on input line 547.
+(pdftex.def)             Requested size: 199.1693pt x 149.95193pt.
+
+Overfull \vbox (8.31021pt too high) detected at line 547
+ []
+
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 522.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 547.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+[19
+
+ <./p1-figs/module.png>] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 557.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [20
 
 ] (./pres.toc)
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 523.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 558.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [21
 
 ]
-<images/atlys_pic.png, id=652, 428.60126pt x 394.47375pt>
-File: images/atlys_pic.png Graphic file (type png)
-<use images/atlys_pic.png>
-Package pdftex.def Info: images/atlys_pic.png  used on input line 528.
-(pdftex.def)             Requested size: 227.62204pt x 209.49745pt.
 
-Overfull \vbox (19.24701pt too high) detected at line 528
+LaTeX Warning: File `images/readout_chain.jpg' not found on input line 569.
+
+
+! Package pdftex.def Error: File `images/readout_chain.jpg' not found: using dr
+aft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569     }
+           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (108.58556pt too high) detected at line 569
  []
 
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 528.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 569.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
 [22
 
- <./images/atlys_pic.png>]
+]
+<images/atlys_pic.png, id=691, 428.60126pt x 394.47375pt>
+File: images/atlys_pic.png Graphic file (type png)
+<use images/atlys_pic.png>
+Package pdftex.def Info: images/atlys_pic.png  used on input line 580.
+(pdftex.def)             Requested size: 199.1693pt x 183.308pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 533.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 580.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
  [23
+
+ <./images/atlys_pic.png>]
+<images/ATLYSwithVMOD-IB.jpg, id=720, 3264.195pt x 1904.11375pt>
+File: images/ATLYSwithVMOD-IB.jpg Graphic file (type jpg)
+<use images/ATLYSwithVMOD-IB.jpg>
+Package pdftex.def Info: images/ATLYSwithVMOD-IB.jpg  used on input line 591.
+(pdftex.def)             Requested size: 278.83578pt x 162.64651pt.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 591.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [24
+
+ <./images/ATLYSwithVMOD-IB.jpg>]
+<images/hybrid_board.jpg, id=747, 2488.29625pt x 1899.095pt>
+File: images/hybrid_board.jpg Graphic file (type jpg)
+<use images/hybrid_board.jpg>
+Package pdftex.def Info: images/hybrid_board.jpg  used on input line 602.
+(pdftex.def)             Requested size: 223.06947pt x 170.24467pt.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 602.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+
+[25
+
+ <./images/hybrid_board.jpg>]
+<images/ABC130_card.jpg, id=774, 1637.11626pt x 1935.23pt>
+File: images/ABC130_card.jpg Graphic file (type jpg)
+<use images/ABC130_card.jpg>
+Package pdftex.def Info: images/ABC130_card.jpg  used on input line 613.
+(pdftex.def)             Requested size: 159.333pt x 188.33719pt.
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 613.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [26
+
+ <./images/ABC130_card.jpg>] (./pres.toc)
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 615.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+
+[27
+
+]
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 632.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [28
+
+]
+File: logos/cern-logo-small.png Graphic file (type png)
+<use logos/cern-logo-small.png>
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 643.
+(pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
+ [29
 
 ] (./pres.toc)
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 541.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 652.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [24
+ [30
 
 ]
-<p1-figs/cham.jpg, id=738, 2811.50375pt x 3026.30624pt>
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
+
+ []
+
+<p1-figs/cham.jpg, id=920, 2811.50375pt x 3026.30624pt>
 File: p1-figs/cham.jpg Graphic file (type jpg)
 <use p1-figs/cham.jpg>
-Package pdftex.def Info: p1-figs/cham.jpg  used on input line 572.
+Package pdftex.def Info: p1-figs/cham.jpg  used on input line 681.
 (pdftex.def)             Requested size: 140.58342pt x 101.52893pt.
-<p1-figs/okto.jpg, id=740, 1332.98pt x 902.37125pt>
+<p1-figs/okto.jpg, id=922, 1332.98pt x 902.37125pt>
 File: p1-figs/okto.jpg Graphic file (type jpg)
 <use p1-figs/okto.jpg>
-Package pdftex.def Info: p1-figs/okto.jpg  used on input line 572.
+Package pdftex.def Info: p1-figs/okto.jpg  used on input line 681.
 (pdftex.def)             Requested size: 150.23137pt x 101.69826pt.
 File: logos/cern-logo-small.png Graphic file (type png)
 <use logos/cern-logo-small.png>
-Package pdftex.def Info: logos/cern-logo-small.png  used on input line 572.
+Package pdftex.def Info: logos/cern-logo-small.png  used on input line 681.
 (pdftex.def)             Requested size: 28.19324pt x 28.45673pt.
- [25
+[31
 
  <./p1-figs/cham.jpg> <./p1-figs/okto.jpg>]
-<./logos/LogoBadge-01.png, id=768, 142.3719pt x 142.3719pt>
+<./logos/LogoBadge-01.png, id=950, 142.3719pt x 142.3719pt>
 File: ./logos/LogoBadge-01.png Graphic file (type png)
 <use ./logos/LogoBadge-01.png>
-Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 575.
+Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 684.
 (pdftex.def)             Requested size: 86.84671pt x 86.84671pt.
- [26
+ [32
 
  <./logos/LogoBadge-01.png>]
 \tf@nav=\write10
@@ -1909,37 +2001,37 @@ Package pdftex.def Info: ./logos/LogoBadge-01.png  used on input line 575.
 \tf@snm=\write12
 \openout12 = `pres.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
- (./pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
+
+(./pres.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 686.
 Package rerunfilecheck Info: File `pres.out' has not changed.
-(rerunfilecheck)             Checksum: 90A5D55C0FB9F66E4EB961F0BEC70091;424.
+(rerunfilecheck)             Checksum: BDF446E71C1FDAAFFA1063DE7786376E;539.
  ) 
 Here is how much of TeX's memory you used:
- 33695 strings out of 492982
- 691973 string characters out of 6134896
- 763977 words of memory out of 5000000
- 36600 multiletter control sequences out of 15000+600000
- 599256 words of font info for 106 fonts, out of 8000000 for 9000
+ 33854 strings out of 492982
+ 694209 string characters out of 6134896
+ 765965 words of memory out of 5000000
+ 36738 multiletter control sequences out of 15000+600000
+ 578927 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,59p,10375b,818s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on pres.pdf (26 pages, 5068292 bytes).
+ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvro8a.pfb>
+Output written on pres.pdf (32 pages, 12143866 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
- 750 compressed objects within 8 object streams
- 61 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1008 PDF objects out of 1200 (max. 8388607)
+ 915 compressed objects within 10 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

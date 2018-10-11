@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{tikz}
+\usepackage{subfigure}
 
 % Code listings with syntax highlighting
 %  Require Pygments
@@ -49,7 +50,11 @@
 % Preamble
 \title[]{Readout System Enhancements for ATLAS ITk Project }
 \subtitle{}
-\author[Kyle Beyer , Dylan Hatch]{Kyle Beyer, \texorpdfstring{\url{kyle.beyer@cern.ch} \\ Dylan Hatch,  \url{dylan.brown.hatch@cern.ch}}{Kyle Beyer , Dylan Hatch}}
+\author[Kyle Beyer , Dylan Hatch]
+{Kyle Beyer, \texorpdfstring{\url{kyle.beyer@cern.ch} \\ 
+Dylan Hatch,  \url{dylan.brown.hatch@cern.ch}         \\
+Mentors: Richard Teuser \& Olivier Arnaez
+}{Kyle Beyer , Dylan Hatch}}
 
 % Body
 \begin{document}
@@ -101,6 +106,40 @@
 
     \frame{
       \frametitle{ATLAS \& the Inner Detector}
+        \begin{columns}[T,onlytextwidth]
+        \begin{column}{.47\textwidth}
+
+        \begin{block}{ ATLAS Detector }
+            \begin{itemize}
+              \item {Inner Detector}
+              \item Calorimeters
+              \item Muon Spectrometer
+            \end{itemize}
+          \end{block}
+        
+          \begin{block}{ Inner Detector }
+            \begin{itemize}
+              \item Pixel Detector (PIX)
+              \item Semiconductor Tracker (SCT) % si micorstrip
+              \item Transition Radiation Tracker (TRT) % straw tube technology
+            \end{itemize}
+          \end{block}
+
+        \end{column}
+        \begin{column}{.5\textwidth}
+          
+          \vspace{-1.5cm}
+          \begin{figure}
+						\includegraphics[width=0.85\textwidth]{p1-figs/atlas.png}
+				 	\end{figure}
+					
+          \vspace{-0.8cm}
+          \begin{figure}
+						\includegraphics[width=0.85\textwidth]{p1-figs/id.jpg}
+				 	\end{figure}
+
+        \end{column}
+        \end{columns}
     
     }
     
@@ -248,7 +287,7 @@
                 \item radiation hardness
                 \item granularity
                 \item readout bandwidth
-                \item trigger readout speed/storage
+                \item trigger readout
             \end{itemize}
           \end{block}
         \end{minipage}  
@@ -325,6 +364,15 @@
           \begin{block}{ The inner detector has insufficient:}
             \begin{itemize}
               \item granularity: Increasing fluence means higher granularity is needed to maintain performance; compensate for instrinsic dead time
+                % -- in all detectors you have whats called dead time; 
+                %    in semiconducotr detectors, as charged particles stream through the 
+                %    semiconductor, it loses particles to valence electrons and promotes them
+                %    to the conduction band, and, because of the bias voltage across the device they   
+                %    drift to the anode, where the signal is readout. 
+                %    If another particle enters the detector volume during the electron drift time, 
+                %    either you'll distort the output signal due to the pulses piling up, or youll
+                %    miss the 2nd pulse entirely. To mitigate this loss/distortion of events, 
+                %    we make our detectors smaller and increase the number of readout channels
             \end{itemize}
           \end{block}
         \end{minipage}  
@@ -398,7 +446,7 @@
         \begin{minipage}{\textwidth}
           \begin{block}{ The inner detector has insufficient:}
             \begin{itemize}
-              \item trigger readout speed/storage: readout chain must accomadate much higher hardware (level 1) trigger rate
+              \item trigger readout: readout chain must accomadate much higher hardware (level 1) trigger rate, and ideally include tracking info
             \end{itemize}
           \end{block}
         \end{minipage}  
@@ -440,74 +488,62 @@
         \end{minipage}  
     }
 
+    \subsection{ITk Design and Readout}
+
     \frame{ \frametitle{ITk design}
-    
+    \vspace{-0.2cm}
     \begin{minipage}{\textwidth}
-    \begin{block}{ITk will have:}
     \begin{itemize}
-      \item Strip detector: 70M channels (6M currently)
-      \item Pixel detector: 600M channels (80M currently)
+      \item Pixel detector: 600M channels (80M in PIX): 5 barrel layers, encap system
+      \item Strip detector: 70M channels (6M in SCT): 4 barrel layers, 6 EC rings
     \end{itemize}
-    \end{block}
     \end{minipage}
+    \vspace{-0.1cm}
     
     \begin{minipage}{\textwidth}
-      \begin{columns}[T,onlytextwidth]
-      \begin{column}{.4\textwidth}
 
         % design
 				\begin{figure}
-					\includegraphics
-          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
-					{example-image}
-          \caption{Design of ITk}
+					\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=0.7\textwidth ]{p1-figs/ATLASITK.png}
 			 	\end{figure}
 
-      \end{column}
-      \begin{column}{.4\textwidth}
-				
-        % rad length vs eta
-        \begin{figure}
-					\includegraphics
-          [trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth ]
-					{example-image}
-          \caption{ITk radiation length v. $\eta$}
-			 	\end{figure}
-
-
-      \end{column}
-      \end{columns}
     \end{minipage}
     }
 
 
     \frame{
-      \frametitle{ITk Design: Strip Detector}
+      \frametitle{ITk Strip Detector}
       % ignoring pixel detector
-        \begin{columns}[T,onlytextwidth]
-        \begin{column}{.45\textwidth}
-
-          \vspace{-0.5cm}
-					\begin{figure}
-						\includegraphics
-            [trim={0cm 0cm 0cm 0cm},clip,width=1.2\textwidth ]
-						{example-image}
-				 	\end{figure}
-
-        \end{column}
-        \begin{column}{.4\textwidth}
-
           \begin{itemize}
-              \item barrel staves
-              \item endcap petals
+              \item Stave/petal: structure, cooling, power, electrical, etc.
+              \item Module: silicon sensor + ASIC + readout hybrid + power board
+              \item Hybrid: Flexible PCB with Hybrid Controller Chip (HCC) to interface w/ ASIC
           \end{itemize}
 
-        \end{column}
-        \end{columns}
+          \vspace{-0.4cm}
+          
+					\begin{figure}
+						\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=0.8\textwidth]{p1-figs/stave_petal.png}
+				 	\end{figure}
+
     }
     
     \frame{
-      \frametitle{Strip Detector Readout}
+      \frametitle{ITk Strip Detector Readout}
+      % ignoring pixel detector
+        \vspace{-0.2cm}
+        \begin{itemize}
+          \item sensor $\rightarrow$ front-end ASIC for signal amplification
+            shaping, \& discrimination 
+          \item 10-12 ABC ASICs per hybrid; each ASIC reads out 256 ch
+          \item Hybrid Controller Chip interfaces the stave/petal service bus \& front-end ASICs 
+        \end{itemize}
+        \vspace{-0.2cm}
+          
+				\begin{figure}
+					\includegraphics[trim={0cm 0cm 0cm 0cm},clip,width=0.5\textwidth]{p1-figs/module.png}
+				\end{figure}
+
     }
 
 
@@ -518,19 +554,94 @@
     %
     % ============================================================== %
     
-    \section{Our Progress}
-    \subsection{s1}
-    \subsection{s2}
-    
+    \section{Lab Testing of Hybrid Chips}
+    \subsection{Testing Setup}
+
+    \frame{
+        \frametitle{Current DAQ Readout Chain}
+        \begin{columns}[c]
+            \column{0.75\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/readout_chain.jpg}
+
+            \column{0.25\textwidth}
+            A look at the fully assembled readout chain.
+        \end{columns}
+    }
+
     \frame{
         \frametitle{ATLYS Board}
-        \includegraphics[width=0.5\paperwidth]{images/atlys_pic.png}
+        \begin{columns}[c]
+            \column{0.5\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/atlys_pic.png}
+
+            \column{0.5\textwidth}
+            ATLYS is a low cost, widely available board that supports single chip, hybrid, and module tests.
+        \end{columns}
+    }
+
+    \frame{
+        \frametitle{Interface Connection}
+        \begin{columns}[c]
+            \column{0.7\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/ATLYSwithVMOD-IB.jpg}
+
+            \column{0.3\textwidth}
+            The ATLYS board is connected to to its interface board, VMOD-IB.
+        \end{columns}
+    }
+
+    \frame{
+        \frametitle{Hybrid Board}
+        \begin{columns}[c]
+            \column{0.7\textwidth}
+            \includegraphics[width=0.8\textwidth]{images/hybrid_board.jpg}
+
+            \column{0.3\textwidth}
+            Orientation of the power, ABC130, and ATLYS connections.
+        \end{columns}
+    }
+
+    \frame{
+        \frametitle{ABC130 Single Chip Test Card}
+        \begin{columns}[c]
+            \column{0.4\textwidth}
+            \includegraphics[width=1.0\textwidth]{images/ABC130_card.jpg}
+
+            \column{0.6\textwidth}
+            Test card, with connection to the Hybrid chip.
+        \end{columns}
+    }
+    
+    \subsection{Progress \& Goals}
+
+    \frame{
+      \frametitle{Progress \& Obstacles}
+      \begin{block}{Progress}
+        \begin{itemize}
+            \item Preliminary tests with ITSDAQ software
+            \item Able to run correct versions of NI-VISA, NI-DAQMX Base, and NI-488.2 and communicate with devices 
+        \end{itemize}
+      \end{block}
+      \begin{block}{Obstacles}
+        \begin{itemize}
+            \item We accidentally lost a configuration and register assignment file on a formatted Windows SSD.
+            \item We have a segmentation violation in the GUI of the ITSDAQ software.
+            \item NI-VISA instrument control software doesn't recognize our power supplies
+        \end{itemize}
+      \end{block}
     }
     
     \frame{
-        \frametitle{Obstacles}
-        fuck
+      \frametitle{Goals}
+      \begin{block}{}
+        \begin{itemize}
+            \item Get ITSDAQ working 
+            \item Solve NI-VISA issues and run HV controller through ITSDAQ
+            \item  Integrate FELIX chip (optical, rad-hardened comm protocol drivers) into readout chain
+        \end{itemize}
+      \end{block}
     }
+    
 
     % ============================================================== %
     %
@@ -543,29 +654,27 @@
 
     \frame{
         \frametitle{Acknowledgements}
-
-        \vspace{-2.0cm}
-
-
-        We would like to acknowledge the University of Michigan Department of Physics,\\ specifically Jean Krisch, Tom Schwarz, and Steven Goldfarb. 
-
+        
+       \begin{minipage}{\textwidth}
+        We would like to acknowledge the University of Michigan Department of Physics,\\ 
+        specifically Jean Krisch, Tom Schwarz, and Steven Goldfarb.
         We would also like to acknowledge the support of the Lounsbery foundation.   \\
+       \end{minipage}  
 
 
         \begin{minipage}{\textwidth}
 
-          \begin{tikzpicture}[remember picture, overlay]
-            \node[anchor=south west, %anchor is bottom left corner of the graphic
-                  xshift=2.4cm ]
-           at (current page.south west) %left bottom corner of the page
-            { \includegraphics[scale=0.05,trim={0 0 0 35cm },clip]
-            {p1-figs/cham.jpg} };
-
-            \node[anchor=south east, %anchor is bottom left corner of the graphic
-                  xshift=-2.4cm]
-           at (current page.south east) %left bottom corner of the page
-            {	\includegraphics[width=0.33\paperwidth]{p1-figs/okto.jpg} };
-          \end{tikzpicture}
+          \begin{figure}
+            \centering
+            \begin{subfigure}
+              \centering
+               \includegraphics[scale=0.05,trim={0 0 0 35cm },clip]{p1-figs/cham.jpg} 
+            \end{subfigure}
+            \begin{subfigure}
+              \centering
+              	\includegraphics[width=0.33\paperwidth]{p1-figs/okto.jpg} 
+            \end{subfigure}
+          \end{figure}
 
         \end{minipage}  
 
