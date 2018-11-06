@@ -625,15 +625,15 @@ Mentors: Richard Teuscher \& Olivier Arnaez
       \frametitle{Progress \& Obstacles}
       \begin{block}{Progress}
         \begin{itemize}
-            \item Preliminary tests with ITSDAQ software
             \item Able to run correct versions of NI-VISA, NI-DAQMX Base, and NI-488.2 and communicate with devices
+            \item Able to successfully interface with the ATLYS board
+            \item Able to use the ITSDAQ software to run tests on actual chips
         \end{itemize}
       \end{block}
       \begin{block}{Obstacles}
         \begin{itemize}
-            \item We accidentally lost a configuration and register assignment file on a formatted Windows SSD.
-            \item We have a segmentation violation in the GUI of the ITSDAQ software.
-            \item NI-VISA instrument control software doesn't recognize our power supplies
+            \item The cabling connections to both the power supply and the ABC chips have been very sensitive
+            \item The distributions generated from a 3-point voltage gain test are far too wide
         \end{itemize}
       \end{block}
     }
@@ -642,9 +642,9 @@ Mentors: Richard Teuscher \& Olivier Arnaez
       \frametitle{Goals}
       \begin{block}{}
         \begin{itemize}
-            \item Get ITSDAQ working
-            \item Solve NI-VISA issues and run HV controller through ITSDAQ
-            \item  Integrate FELIX chip (optical, rad-hardened comm protocol drivers) into readout chain
+            \item Resolve strange 3-point gain behavior
+            \item Obtain a stable cabling setup
+            \item Integrate FELIX chip (optical, rad-hardened comm protocol drivers) into readout chain
         \end{itemize}
       \end{block}
     }
